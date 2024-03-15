@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0DAA7D;
+    font-family: cursive;
+}
+
+.body{
+    background-color: cornsilk;
+}
+
+.todoname,.tododesc{
+    width:500px;
+    border-color: #A3D6C5;
+    margin:20px;
+    height:30px;
+    border-radius: 10px;
+    font-family:cursive;
+
+}
+
+.addtodo{
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    background-color: #13AD89;
+    color:white;
+    font-family:cursive;
+}
+
+.filter{
+    
+    font-family:cursive;
+}
+
+
+
+.mytodo{
+    display:flex;
+    justify-content: start;
+    
+    font-family:cursive;
+}
+
+.changestatus{
+    background-color:blueviolet;
+    margin:10px;
+    font-family:cursive;
+    padding:5px;
+    color:white;
+}
+
+.editcolor{
+    background-color:#13AD89 ;
+    margin:10px;
+    font-family:cursive;
+    padding:5px;
+    color:white;
+}
+
+.deletecolor{
+    background-color: red;
+    margin:10px;
+    font-family:cursive;
+    padding:5px;
+    color:white;
+}
+
+.status{
+    color:blueviolet;
+    font-family:cursive;
+}
+
+.nametodo{
+    font-family:cursive;
+}
+
+.desctodo{
+    font-family:cursive;
+    
+}
+
+.card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width:500px;
+    background-color:rgb(204,245,211);
+}
